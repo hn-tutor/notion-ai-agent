@@ -25,7 +25,7 @@ load_dotenv()
 
 VN_TZ = ZoneInfo("Asia/Ho_Chi_Minh")
 ALLOWED_CATEGORIES = ("Công việc", "Học tập", "Cá nhân")
-GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_MODEL = "gemini-3.8-flash"
 
 
 def now_vietnam() -> datetime:
